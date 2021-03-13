@@ -4,10 +4,28 @@
   </head>
   <body>
   <div class='slider'>
-     <div class='slide'><p id='slide1'>вопрос 1</p></div>
-     <div class='slide'><p id='slide2'>вопрос 2</p></div>
-     <div class='slide'> <p id='slide3'>вопрос 3</p></div>
-    <button id='previous' onclick='minusSlide()'>previous</button>
+     <div class='slide'>
+        <p id='slide1'></p>
+        <input type='button' id='q1-a1' value='ответ 1'><br>
+        <input type='button' id='q1-a2' value='ответ 2'><br>
+        <input type='button' id='q1-a3' value='ответ 3'><br>
+     </div>
+     
+     <div class='slide'>
+        <p id='slide2'></p>
+        <input type='button' id='q2-a1' value='ответ 1'><br>
+        <input type='button' id='q2-a2' value='ответ 2'><br>
+        <input type='button' id='q2-a3' value='ответ 3'><br>
+     </div>
+     
+     <div class='slide'>
+        <p id='slide3'></p>
+        <input type='button' id='q3-a1' value='ответ 1'><br>
+        <input type='button' id='q3-a2' value='ответ 2'><br>
+        <input type='button' id='q3-a3' value='ответ 3'><br>
+     </div><br>
+     
+    <button id='previous' onclick='minusSlide()'>previous</button><br>
     <button id='next' onclick='plusSlide()'>next</button>
   </div>
   <script src="./script.js" type="text/javascript"></script>
